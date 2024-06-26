@@ -1,0 +1,33 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Dungeon.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\DungeonEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\BoxTriggerComponent.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DefaultPlayerController.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\Dungeon.init.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonCharacter.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonGameMode.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonPlayerController.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonProjectile.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\GrabComponent.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\MoveComponent.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\TP_PickUpComponent.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\TP_WeaponComponent.gen.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\BoxTriggerComponent.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DefaultPlayerController.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\Dungeon.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonCharacter.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonGameMode.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonPlayerController.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\DungeonProjectile.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\GrabComponent.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\MoveComponent.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\TP_PickUpComponent.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\TP_WeaponComponent.cpp.obj"
+"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\Default.rc2.res"
+/OUT:"C:\Users\pantb\Documents\Unreal Projects\Dungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\Dungeon\UnrealEditor-Dungeon.lib"

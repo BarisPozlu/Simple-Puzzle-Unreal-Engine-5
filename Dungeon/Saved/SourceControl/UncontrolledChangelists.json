@@ -1,0 +1,32 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Main.umap",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/MedievalDungeon/Materials/M_Tiling_Master.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/BP_Torch_Dungeon.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Dungeon.umap",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/MedievalDungeon/Meshes/Architecture/Dungeon/SM_Floor.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/BP_Player.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Blueprints/BP_DefualtGameMode.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Grab.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/FirstPerson/Input/IMC_Default.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/BP_DefaultPlayerController.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/BP_SecretWall.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Blueprints/BP_DefaultPlayerController.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Blueprints/BP_Player.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Blueprints/BP_SecretWall.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Blueprints/BP_Torch_Dungeon.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/CustomInput/Grab.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/Maps/Main.umap",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/DefaultMapping.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/FirstPerson/BP_Player.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/GameModeDefault.uasset",
+				"C:/Users/pantb/Documents/Unreal Projects/Dungeon/Content/BP_GameModeDefault.uasset"
+			]
+		}
+	]
+}

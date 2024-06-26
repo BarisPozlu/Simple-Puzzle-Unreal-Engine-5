@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\source\\dungeon\\grabcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\x64\\dungeoneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dungeon\\definitions.dungeon.h",
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\source\\dungeon\\grabcomponent.h",
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\unrealeditor\\inc\\dungeon\\uht\\grabcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicshandlecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicshandlecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

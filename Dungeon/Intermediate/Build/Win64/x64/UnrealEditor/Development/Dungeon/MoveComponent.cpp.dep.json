@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\source\\dungeon\\movecomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\x64\\dungeoneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dungeon\\definitions.dungeon.h",
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\source\\dungeon\\movecomponent.h",
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\unrealeditor\\inc\\dungeon\\uht\\movecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

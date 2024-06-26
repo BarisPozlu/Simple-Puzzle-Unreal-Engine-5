@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\source\\dungeon\\dungeon.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\x64\\dungeoneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dungeon\\definitions.dungeon.h",
+            "c:\\users\\pantb\\documents\\unreal projects\\dungeon\\source\\dungeon\\dungeon.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

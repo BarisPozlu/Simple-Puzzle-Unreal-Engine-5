@@ -44,6 +44,6 @@ protected:
 private:
 
 	UMoveComponent* moveComponent;
-	TArray<UPrimitiveComponent*> overlappingComponents;
+	UPrimitiveComponent* overlappedComponent;
 	bool newOverlap;
 };

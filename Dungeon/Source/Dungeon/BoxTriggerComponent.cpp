@@ -22,19 +22,13 @@ void UBoxTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, F
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
     if (!newOverlap) return;
-    
-    GetOverlappingComponents(overlappingComponents);
 
-    for (UPrimitiveComponent* component : overlappingComponents)
-    {
-        if (component->GetOwner()->ActorHasTag("UnlocksDoors") && !(component->GetOwner()->ActorHasTag("Grabbed"))) // this check is needed so that we don't unlock
-        {                                                                                                         // if the component is still grabbed
-            component->SetSimulatePhysics(false);
-            component->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform);
-            SetupMoveComponentToMove();
-            newOverlap = false;
-            break;
-        }
+    if (overlappedComponent->GetOwner()->ActorHasTag("UnlocksDoors") && !(overlappedComponent->GetOwner()->ActorHasTag("Grabbed"))) // this check is needed so that we don't unlock
+    {                                                                                                                               // if the component is still grabbed
+        overlappedComponent->SetSimulatePhysics(false);
+        overlappedComponent->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform);
+        SetupMoveComponentToMove();
+        newOverlap = false;
     }
 }
 
@@ -44,7 +38,9 @@ int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
     if (OtherActor == GetOwner()) return;
 
     if (!OtherActor->ActorHasTag("UnlocksDoors")) return;  // redundant check but better performance
- 
+
+    overlappedComponent = OtherComp;
+    
     newOverlap = true;
 }
 
@@ -55,8 +51,12 @@ UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 
     if (!OtherActor->ActorHasTag("UnlocksDoors")) return;  // redundant check but better performance
 
-    if (newOverlap) return;
-
+    if (newOverlap)
+    {
+        newOverlap = false;
+        return;
+    }
+    
     SetupMoveComponentToMove();
 }
 
